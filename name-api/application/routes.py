@@ -2,7 +2,7 @@ from application import app
 from flask import jsonify
 from random import choice
 
-names = ['Captain America', 'Iron Man', 'The Hulk', 'Doctor Doom', 'Thor']
+names = ['CaptainAmerica', 'IronMan', 'TheHulk', 'DoctorDoom', 'Thor']
 
 
 @app.route('/get-name', methods=['GET'])
