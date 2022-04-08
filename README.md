@@ -34,12 +34,14 @@ The workaround I found for this was simply to have two version of my program, on
 
 Looking at diagram 3 you can see the code I used as a workaround to try and get as much CI done as possible, however it only worked for so long. This massively hindered my ability to complete the project work.
 
-Also, although I did not fully get to use them I had the VM's on GCP ready and configured to be used correctly for their assigned services, as is shown in diagram 6.
+Also, although I did not fully get to use them I had the VM's on GCP ready and configured to be used correctly for their assigned services, as is shown in diagram 6. I also had a few docker files and docker-compose.yaml files ready for containerisation once ansible is completed
 
 However, due to the fact I basically had to manage two seperate directories within vs code to check if things worked, it did mean that I was successful in creating a perfect feature branch model of my work. (diagram 4)
 
 The drawbacks of my project is that due to unforseen circumstanced I was unable to complete the follow:
 
-Complete testing Complete setting up and testing CI Pipeline Complete setting up Ansible Roles
+Complete testing 
+Complete setting up and testing CI Pipeline 
+Complete setting up Ansible Roles
 
 Although it is hard for me to say, I do feel like I was not very far off completing these tasks despite the unforseen circumstances that slowed me down. However having said that, I am still disappointed that I was unable to complete all aspects of the minimum viable product, and I can only hope that I will be given another chance by QA to continue.
