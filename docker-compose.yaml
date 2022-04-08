@@ -1,0 +1,23 @@
+version: "3.8"
+services:
+  front-end:
+    image: samueldannatt/name-stats-front:latest
+    build: ./front-end
+    ports:
+      - published: 80
+        target: 5000
+        protocol: tcp
+    networks:
+      - "name-net"
+  name-api:
+    image: samueldannatt/name-stats-name:latest
+    build: ./name-api
+    networks:
+      - "name-net"
+  stats-api: 
+    image: samueldannatt/name-stats-stats:latest
+    build: ./stats-api
+    networks:
+      - "name-net"
+networks: 
+  name-net:
